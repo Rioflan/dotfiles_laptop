@@ -1,0 +1,7 @@
+[Added Associations]
+application/pdf=org.gnome.Evince.desktop;libreoffice-draw.desktop;
+text/markdown=libreoffice-writer.desktop;
+image/png=feh.desktop;
+
+[Default Applications]
+application/pdf=org.gnome.Evince.desktop

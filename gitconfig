@@ -1,0 +1,7 @@
+[user]
+	email = florian.revol@epita.fr
+	name = Florian Revol
+[color]
+	ui = true
+[push]
+	default = simple

@@ -1,0 +1,95 @@
+! transparency - true or false (default)
+!URxvt*transparent: false
+URxvt*transparent: true
+
+! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+URxvt*tintColor: tonato4
+
+! shading - 0 to 99 darkens, 101 to 200 lightens.
+URxvt*shading: 20
+
+! scrollback buffer lines - 65535 is max on most machines (64 is default)
+!URxvt*saveLines: 12000
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+
+! Underscore cursor
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+
+! Inconsolata-dz Settings
+URxvt.font: xft:inconsolata-dz for powerline:pixelsize=14:antialias=true:hinting=true
+URxvt.boldFont: xft:inconsolata-dz for powerline:bold:pixelsize=14:antialias=true:hinting=true
+URxvt.italicFont: xft:inconsolata-dz for powerline:italic:pixelsize=14:antialias=true:hinting=true
+URxvt.boldItalicFont: xft:inconsolata-dz for powerline:bold:italic:pixelsize=14:antialias=true:hinting=true
+URxvt.letterSpace: -1
+
+URxvt.perl-ext-common: default,font-size
+
+! keybinding
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+URxvt.keysym.C-equal:  perl:font-size:reset
+URxvt.keysym.C-slash:  perl:font-size:show
+
+!------------------------------------------------------------------------------
+! c o l o r -  s e t t i n g s
+
+! to match gnome-terminal "Linux console" scheme
+! foreground/background
+URxvt*background: #000000
+URxvt*foreground: #ffffff
+! black
+/* URxvt.color0  : #2e3436 */
+/* URxvt.color8  : #555753 */
+URxvt.color0  : #000000
+URxvt.color8  : #333333
+! red
+URxvt.color1  : #cc0000
+URxvt.color9  : #ec2929
+! green
+URxvt.color2  : #4e9a06
+URxvt.color10 : #8ae234
+! yellow
+URxvt.color3  : #c4a000
+URxvt.color11 : #fce94f
+! blue
+URxvt.color4  : #3465a4
+URxvt.color12 : #729fcf
+! magenta
+URxvt.color5  : #75507b
+URxvt.color13 : #ad7fa8
+! cyan
+URxvt.color6  : #06989a
+URxvt.color14 : #34e2e2
+! white
+URxvt.color7  : #d3d7cf
+URxvt.color15 : #eeeeec
+
+! scrollbar - true (default) or false
+URxvt*scrollBar: false
+
+! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right: false
+
+URxvt.scrollBar_floating: false
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: plain
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+! URxvt*scrollWithBuffer: false
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
