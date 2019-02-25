@@ -46,7 +46,7 @@ function return_color
     fi
 }
 
-export PROMPT_DIRTRIM=3
+export PROMPT_DIRTRIM=2
 PS1="\[\$(return_color)\][\w]"
 PS1+="\[\$(git_color)\]"
 PS1+="\$(git_branch)"

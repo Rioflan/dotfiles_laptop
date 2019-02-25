@@ -11,48 +11,189 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/not_all
+~MSle0/echo
+
+# Last Substitute Search Pattern:
+~MSle0~&dir
 
 # Last Substitute String:
-$
+$path
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1548236986,,"wq"
-:q
-|2,0,1548236956,,"q"
+|2,0,1551057011,,"wq"
 :w
-|2,0,1548236597,,"w"
-:q!
-|2,0,1548148064,,"q!"
+|2,0,1551056936,,"w"
+:'<,'>s/dir/path/g
+|2,0,1551056636,,"'<,'>s/dir/path/g"
 :s
-|2,0,1547918621,,"s"
+|2,0,1551056292,,"s"
+:q
+|2,0,1551054754,,"q"
+:<
+|2,0,1551051472,,"<"
+:! cat dotfile.sh
+|2,0,1551051395,,"! cat dotfile.sh"
+:q!
+|2,0,1551031033,,"q!"
+:!ls
+|2,0,1551030514,,"!ls"
+:!ls ~
+|2,0,1551030509,,"!ls ~"
+:r dotfile.sh
+|2,0,1551030469,,"r dotfile.sh"
+:W
+|2,0,1550958357,,"W"
+:Q
+|2,0,1550958215,,"Q"
 :n
-|2,0,1546631819,,"n"
-:::::::
-|2,0,1546253288,,"::::::"
-::::::::::::::::
-|2,0,1546253280,,":::::::::::::::"
-:help tutor
-|2,0,1544748077,,"help tutor"
+|2,0,1550405459,,"n"
+:ww
+|2,0,1550141261,,"ww"
+:r config.cc
+|2,0,1549971660,,"r config.cc"
+:w brightness.sh
+|2,0,1550052415,,"w brightness.sh"
+:!q
+|2,0,1550051671,,"!q"
+:w ./.gitignore
+|2,0,1550016317,,"w ./.gitignore"
+:w .gitignore
+|2,0,1550016289,,"w .gitignore"
+:'<,'>w ../spyder/spyder/configure.ac
+|2,0,1549930434,,"'<,'>w ../spyder/spyder/configure.ac"
+:e ~/Downloads/assignments.info
+|2,0,1549292707,,"e ~/Downloads/assignments.info"
+:r stage/bred/Le\ 1e\ projet\ opensource\ de\ la\ BRED
+|2,0,1549221671,,"r stage/bred/Le\\ 1e\\ projet\\ opensource\\ de\\ la\\ BRED"
+:WQ
+|2,0,1549219408,,"WQ"
+:e rectangle.cc
+|2,0,1549214700,,"e rectangle.cc"
+:o ex3.cc
+|2,0,1549212284,,"o ex3.cc"
+:r oui
+|2,0,1549201628,,"r oui"
+:set nocp
+|2,0,1549201527,,"set nocp"
+:e!
+|2,0,1549201436,,"e!"
+:e
+|2,0,1549201433,,"e"
+:e ~/.vimrc
+|2,0,1549201266,,"e ~/.vimrc"
+:set noic
+|2,0,1549201080,,"set noic"
+:set nohls
+|2,0,1549201000,,"set nohls"
+:nohlsearch
+|2,0,1549200950,,"nohlsearch"
+:set hls is
+|2,0,1549200832,,"set hls is"
+:set nic
+|2,0,1549200810,,"set nic"
+:set c
+|2,0,1549200803,,"set c"
+:set ic
+|2,0,1549200764,,"set ic"
+:r !ls
+|2,0,1549199569,,"r !ls"
+:!cat oui
+|2,0,1549199375,,"!cat oui"
+:'<,'>w oui
+|2,0,1549199365,,"'<,'>w oui"
+:!rm oui
+|2,0,1549199262,,"!rm oui"
+:w oui
+|2,0,1549199209,,"w oui"
+:!dir
+|2,0,1549199158,,"!dir"
+:%s/old/new/gc
+|2,0,1549198522,,"%s/old/new/gc"
+:s/thee/the
+|2,0,1549197559,,"s/thee/the"
+:set ruler
+|2,0,1549196515,,"set ruler"
+:r $VIMRUNTIME/vimrc_example.vim
+|2,0,1549201317,,"r $VIMRUNTIME/vimrc_example.vim"
 :help
-|2,0,1544747936,,"help"
-:wq!
-|2,0,1544538434,,"wq!"
-:w ~/rio
-|2,0,1544404382,,"w ~/rio"
-:w!
-|2,0,1544404214,,"w!"
+|2,0,1549139996,,"help"
+:p
+|2,0,1548980980,,"p"
 
 # Search String History (newest to oldest):
+? dir
+|2,1,1551056636,,"dir"
+?/²
+|2,1,1551056296,47,"²"
+?/echo
+|2,1,1551055627,47,"echo"
+?/-f
+|2,1,1551053314,47,"-f"
+?/[[
+|2,1,1551033807,47,"[["
+?/getso
+|2,1,1550673387,47,"getso"
+?/fd_g
+|2,1,1550673299,47,"fd_g"
+?/getsock
+|2,1,1550673248,47,"getsock"
+?/event_register
+|2,1,1550671202,47,"event_register"
+?/register_ew
+|2,1,1550671242,47,"register_ew"
+? @$
+|2,1,1550671094,,"@$"
+?/event-loop
+|2,1,1550573330,47,"event-loop"
+? \/\*!
+|2,1,1549971821,,"\\/\\*!"
+? \/\*
+|2,1,1549971821,,"\\/\\*"
+?/LIB
+|2,1,1549971425,47,"LIB"
+?/y
+|2,1,1550047873,47,"y"
+?/AC_PROG_CXX
+|2,1,1549933903,47,"AC_PROG_CXX"
+?/AUTOMAKE
+|2,1,1549929792,47,"AUTOMAKE"
+?/AC_PROG
+|2,1,1549929229,47,"AC_PROG"
+?/point
+|2,1,1549374505,47,"point"
+? \<total\>
+|2,1,1549214096,,"\\<total\\>"
+? ";
+|2,1,1549214093,,"\";"
+? \<std\>
+|2,1,1549214068,,"\\<std\\>"
+?/float
+|2,1,1549212952,47,"float"
+?/Lesson
+|2,1,1549200933,47,"Lesson"
+?/ 
+|2,1,1549200897,47," "
+?/ignore
+|2,1,1549200769,47,"ignore"
+? old
+|2,1,1549198522,,"old"
+? thee
+|2,1,1549197559,,"thee"
+?/errroorr
+|2,1,1549196648,47,"errroorr"
+?/2014
+|2,1,1548929526,47,"2014"
+?/orichi
+|2,1,1548929504,47,"orichi"
+?/CloserTo
+|2,1,1548775835,47,"CloserTo"
 ?/not_all
 |2,1,1548231672,47,"not_all"
 ? \<ln\>
 |2,1,1548157635,,"\\<ln\\>"
 ?/Shift+e
 |2,1,1548063412,47,"Shift+e"
-? @$
-|2,1,1548061888,,"@$"
 ?/print
 |2,1,1548023164,47,"print"
 ?/PRES
@@ -81,10 +222,6 @@ $
 |2,1,1547802851,47,"exit"
 ?/main
 |2,1,1544631840,47,"main"
-?/semi
-|2,1,1544450755,47,"semi"
-?/mod
-|2,1,1544450545,47,"mod"
 
 # Expression History (newest to oldest):
 
@@ -93,472 +230,474 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	${directory//\//\\/}
-|3,0,0,0,1,0,1548233963,"${directory//\\//\\\\/}"
-""1	LINE	0
-	        echo "$link"
-|3,1,1,1,1,0,1548235733,"        echo \"$link\""
-"2	LINE	0
-	        if [ "$#" -ne 0 ]
-|3,0,2,1,1,0,1548235685,"        if [ \"$#\" -ne 0 ]"
+"0	LINE	0
+	        cp "$HOME/.$file" "./$file" -u
+|3,0,0,1,1,0,1551056581,"        cp \"$HOME/.$file\" \"./$file\" -u"
+"1	CHAR	0
+	done
+	
+	
+|3,0,1,0,3,0,1551056702,"done","",""
+"2	CHAR	0
+	
+	for file in $files
+	do
+	    if [ "$#" -eq 0 ]; then
+	        cp "$HOME/.$file" "./$file" -u
+	    elif [ "$1" = "clean" ]; then
+	        remove $file
+	    elif [ "$1" = "print" ]; then
+	        echo $file
+	    fi
+|3,0,2,0,10,0,1551056701,"","for file in $files","do","    if [ \"$#\" -eq 0 ]; then","        cp \"$HOME/.$file\" \"./$file\" -u","    elif [ \"$1\" = \"clean\" ]; then","        remove $file","    elif [ \"$1\" = \"print\" ]; then","        echo $file","    fi"
 "3	LINE	0
-	        then
-|3,0,3,1,1,0,1548235683,"        then"
-"4	LINE	0
-	        fi
-|3,0,4,1,1,0,1548235680,"        fi"
-"5	LINE	0
-	
-|3,0,5,1,1,0,1548235516,""
-"6	CHAR	0
-	ln -s "$HOME/.$var" .
-	
-|3,0,6,0,2,0,1548235483,"ln -s \"$HOME/.$var\" .",""
-"7	CHAR	0
-	        if [ "$#" -ne 0 ] && [ $@ = '-n' ]; then
-	            ln -s "$HOME/.$var" .
-	        fi
-	
-|3,0,7,0,4,0,1548234539,"        if [ \"$#\" -ne 0 ] && [ $@ = '-n' ]; then","            ln -s \"$HOME/.$var\" .","        fi",""
-"8	LINE	0
-	            echo $var
-|3,0,8,1,1,0,1548234521,"            echo $var"
-"9	LINE	0
 	            
-|3,0,9,1,1,0,1548234112,"            "
-"-	CHAR	0
-	l
-|3,0,36,0,1,0,1548157554,"l"
+|3,0,3,1,1,0,1551056680,"            "
+"4	LINE	0
+	            cp "$HOME/.$path" "./$path" -u
+|3,0,4,1,1,0,1551056680,"            cp \"$HOME/.$path\" \"./$path\" -u"
+"5	LINE	0
+	    tmp_dir="$1"
+|3,0,5,1,1,0,1551056198,"    tmp_dir=\"$1\""
+"6	LINE	0
+	        tmp_dir="${BASH_REMATCH[1]}"
+|3,0,6,1,1,0,1551056190,"        tmp_dir=\"${BASH_REMATCH[1]}\""
+"7	LINE	0
+	    rm "$1" -r
+|3,0,7,1,1,0,1551056104,"    rm \"$1\" -r"
+"8	LINE	0
+	    tmp_dir="$1"
+|3,0,8,1,1,0,1551056103,"    tmp_dir=\"$1\""
+"9	CHAR	0
+	            rm "$dir" -r
+	            while [ -z "$(ls $tmp_dir)" ]; do
+	                rmdir $tmp_dir
+	                [[ $tmp_dir =~ (.*)\/.+$ ]]
+	                tmp_dir="${BASH_REMATCH[1]}"
+	            done
+|3,0,9,0,6,0,1551055921,"            rm \"$dir\" -r","            while [ -z \"$(ls $tmp_dir)\" ]; do","                rmdir $tmp_dir","                [[ $tmp_dir =~ (.*)\\/.+$ ]]","                tmp_dir=\"${BASH_REMATCH[1]}\"","            done"
+""-	CHAR	0
+	/
+|3,1,36,0,1,0,1551056865,"/"
 
 # File marks:
 'M  54  0  ~/projects/cpp/matrix.cc
 |4,77,54,0,1548148578,"~/projects/cpp/matrix.cc"
-'0  8  11  ~/Documents/config/.gitignore
-|4,48,8,11,1548236986,"~/Documents/config/.gitignore"
-'1  1  0  ~/.config/Thunar/uca.xml
-|4,49,1,0,1548236956,"~/.config/Thunar/uca.xml"
-'2  1  0  ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
-|4,50,1,0,1548236940,"~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml"
-'3  1  0  ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-|4,51,1,0,1548236867,"~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb"
-'4  1  0  ~/.config/pavucontrol.ini
-|4,52,1,0,1548236854,"~/.config/pavucontrol.ini"
-'5  1  0  ~/.config/mimeapps.list
-|4,53,1,0,1548236847,"~/.config/mimeapps.list"
-'6  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,54,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
-'7  1  0  ~/.config/dconf/user
-|4,55,1,0,1548236763,"~/.config/dconf/user"
-'8  1  0  ~/Documents/config/.gitignore
-|4,56,1,0,1548236726,"~/Documents/config/.gitignore"
-'9  1  0  ~/Documents/config/.gitignore
-|4,57,1,0,1548236726,"~/Documents/config/.gitignore"
+'0  31  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,48,31,0,1551057011,"~/Documents/laptop_files_2/dotfile.sh"
+'1  19  27  ~/Documents/laptop_files_2/dotfile.sh
+|4,49,19,27,1551053202,"~/Documents/laptop_files_2/dotfile.sh"
+'2  19  27  ~/Documents/laptop_files_2/dotfile.sh
+|4,50,19,27,1551053202,"~/Documents/laptop_files_2/dotfile.sh"
+'3  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,51,19,23,1551050540,"~/Documents/laptop_files_2/dotfile.sh"
+'4  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,52,19,23,1551050540,"~/Documents/laptop_files_2/dotfile.sh"
+'5  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,53,19,23,1551050387,"~/Documents/laptop_files_2/dotfile.sh"
+'6  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,54,19,23,1551050387,"~/Documents/laptop_files_2/dotfile.sh"
+'7  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,55,19,23,1551050387,"~/Documents/laptop_files_2/dotfile.sh"
+'8  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,56,19,23,1551050387,"~/Documents/laptop_files_2/dotfile.sh"
+'9  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,57,1,0,1551034000,"~/Documents/laptop_files_2/dotfile.sh"
 
 # Jumplist (newest first):
--'  8  11  ~/Documents/config/.gitignore
-|4,39,8,11,1548236986,"~/Documents/config/.gitignore"
--'  1  0  ~/.config/Thunar/uca.xml
-|4,39,1,0,1548236956,"~/.config/Thunar/uca.xml"
--'  1  0  ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
-|4,39,1,0,1548236940,"~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml"
--'  1  0  ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
-|4,39,1,0,1548236940,"~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml"
--'  1  0  ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-|4,39,1,0,1548236867,"~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb"
--'  1  0  ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-|4,39,1,0,1548236867,"~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb"
--'  1  0  ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-|4,39,1,0,1548236867,"~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb"
--'  1  0  ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-|4,39,1,0,1548236867,"~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/pavucontrol.ini
-|4,39,1,0,1548236854,"~/.config/pavucontrol.ini"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/mimeapps.list
-|4,39,1,0,1548236847,"~/.config/mimeapps.list"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/menus/applications-merged/user-chrome-apps.menu
-|4,39,1,0,1548236819,"~/.config/menus/applications-merged/user-chrome-apps.menu"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
--'  1  0  ~/.config/dconf/user
-|4,39,1,0,1548236763,"~/.config/dconf/user"
+-'  31  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,31,0,1551057011,"~/Documents/laptop_files_2/dotfile.sh"
+-'  3  172  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,3,172,1551056965,"~/Documents/laptop_files_2/dotfile.sh"
+-'  19  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,33,1551056959,"~/Documents/laptop_files_2/dotfile.sh"
+-'  27  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,27,33,1551056955,"~/Documents/laptop_files_2/dotfile.sh"
+-'  29  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,29,33,1551056955,"~/Documents/laptop_files_2/dotfile.sh"
+-'  24  8  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,24,8,1551056954,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551056953,"~/Documents/laptop_files_2/dotfile.sh"
+-'  18  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,18,0,1551056636,"~/Documents/laptop_files_2/dotfile.sh"
+-'  10  4  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,10,4,1551056157,"~/Documents/laptop_files_2/dotfile.sh"
+-'  7  4  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,7,4,1551056156,"~/Documents/laptop_files_2/dotfile.sh"
+-'  6  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,6,0,1551056155,"~/Documents/laptop_files_2/dotfile.sh"
+-'  28  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,28,0,1551056019,"~/Documents/laptop_files_2/dotfile.sh"
+-'  16  8  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,16,8,1551055631,"~/Documents/laptop_files_2/dotfile.sh"
+-'  30  12  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,30,12,1551055630,"~/Documents/laptop_files_2/dotfile.sh"
+-'  32  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,32,0,1551054745,"~/Documents/laptop_files_2/dotfile.sh"
+-'  19  27  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,27,1551053202,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  28  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,28,1551052996,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  28  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,28,1551052996,"~/Documents/laptop_files_2/dotfile.sh"
+-'  28  9  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,28,9,1551052940,"~/Documents/laptop_files_2/dotfile.sh"
+-'  17  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,17,23,1551052464,"~/Documents/laptop_files_2/dotfile.sh"
+-'  17  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,17,23,1551052464,"~/Documents/laptop_files_2/dotfile.sh"
+-'  24  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,24,5,1551051883,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551050568,"~/Documents/laptop_files_2/dotfile.sh"
+-'  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,23,1551050540,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551050397,"~/Documents/laptop_files_2/dotfile.sh"
+-'  19  23  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,23,1551050387,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551050377,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551034000,"~/Documents/laptop_files_2/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  9  25  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,9,25,1551033997,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  19  15  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,15,1551033945,"~/Documents/laptop_files_2/dotfile.sh"
+-'  19  15  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,19,15,1551033945,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033933,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  24  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,24,1551033917,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033890,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  21  5  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,21,5,1551033873,"~/Documents/laptop_files_2/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  35  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,35,0,1551033807,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/dotfiles_laptop/dotfile.sh
+|4,39,1,0,1551033796,"~/Documents/dotfiles_laptop/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033748,"~/Documents/laptop_files_2/dotfile.sh"
+-'  26  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,26,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  23  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,23,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  33  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,33,1551033725,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033678,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033678,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033665,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033665,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  16  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,16,1551033605,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  16  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,16,1551033605,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  16  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,16,1551033605,"~/Documents/laptop_files_2/dotfile.sh"
+-'  20  16  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,20,16,1551033605,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033575,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033575,"~/Documents/laptop_files_2/dotfile.sh"
+-'  1  0  ~/Documents/laptop_files_2/dotfile.sh
+|4,39,1,0,1551033550,"~/Documents/laptop_files_2/dotfile.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/Documents/config/.gitignore
-	*	1548236986	0
-	"	8	11
-	^	8	12
-	.	8	11
-	+	1	15
-	+	7	13
-	+	8	11
-
-> ~/.config/Thunar/uca.xml
-	*	1548236952	0
-	"	1	0
-
-> ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
-	*	1548236936	0
-	"	1	0
-
-> ~/.config/pulse/a01996bd123f4606b21d684670aa9e82-card-database.tdb
-	*	1548236866	0
-	"	1	0
-
-> ~/.config/pavucontrol.ini
-	*	1548236852	0
-	"	1	0
-
-> ~/.config/mimeapps.list
-	*	1548236832	0
-	"	1	0
-
-> ~/.config/menus/applications-merged/user-chrome-apps.menu
-	*	1548236816	0
-	"	1	0
-
-> ~/.config/dconf/user
-	*	1548236760	0
-	"	1	0
-
-> ~/Documents/config/dotfile.sh
-	*	1548236685	0
-	"	4	91
-	^	4	92
-	.	4	91
-	+	11	0
-	+	10	17
-	+	8	0
-	+	5	12
-	+	8	27
-	+	8	9
-	+	8	19
-	+	8	0
-	+	8	17
-	+	4	15
-	+	15	20
-	+	4	26
-	+	15	29
-	+	4	6
-	+	13	20
-	+	8	33
-	+	8	34
-	+	8	0
-	+	3	20
-	+	4	28
-	+	3	0
-	+	4	0
-	+	3	16
-	+	4	37
-	+	8	55
-	+	4	5
-	+	3	16
-	+	8	51
-	+	4	0
-	+	5	0
-	+	6	0
-	+	4	0
-	+	5	0
-	+	35	0
-	+	6	28
-	+	9	20
-	+	8	4
-	+	9	11
-	+	8	0
-	+	6	0
-	+	8	33
-	+	6	0
-	+	22	50
-	+	34	0
-	+	23	11
-	+	20	31
-	+	23	11
-	+	22	0
-	+	20	25
-	+	34	29
-	+	22	33
-	+	34	50
-	+	34	0
-	+	34	32
-	+	22	33
-	+	34	33
-	+	34	0
-	+	30	3
-	+	24	11
-	+	27	15
-	+	30	11
-	+	23	18
-	+	34	0
-	+	22	25
-	+	35	0
-	+	27	15
-	+	28	19
-	+	28	38
-	+	30	0
-	+	27	26
-	+	30	0
-	+	25	41
-	+	27	16
-	+	26	30
-	+	4	30
-	+	4	80
-	+	22	19
+> ~/Documents/laptop_files_2/dotfile.sh
+	*	1551057006	0
+	"	31	0
+	^	31	0
+	.	31	0
+	+	3	215
 	+	29	0
-	+	33	0
-	+	32	16
-	+	33	0
-	+	28	27
-	+	31	23
-	+	34	0
-	+	22	7
-	+	23	8
-	+	24	8
-	+	25	11
-	+	26	15
-	+	27	11
+	+	22	0
+	+	21	8
+	+	29	8
+	+	29	30
+	+	29	0
+	+	29	11
+	+	22	0
+	+	21	12
+	+	3	249
+	+	3	248
+	+	22	28
+	+	29	20
+	+	29	0
+	+	29	9
+	+	29	0
+	+	29	22
+	+	24	0
+	+	29	28
+	+	29	36
+	+	28	0
+	+	29	0
+	+	28	24
 	+	28	15
-	+	29	12
-	+	30	7
-	+	31	7
-	+	32	11
-	+	33	7
+	+	28	0
+	+	19	7
+	+	28	39
+	+	28	22
+	+	28	15
+	+	28	0
+	+	28	28
+	+	29	8
+	+	31	8
+	+	32	0
+	+	30	0
+	+	28	16
+	+	28	40
+	+	28	24
+	+	28	40
+	+	28	34
+	+	19	25
+	+	28	23
+	+	28	0
+	+	16	0
+	+	16	3
+	+	28	31
+	+	16	16
+	+	16	0
+	+	28	0
+	+	15	0
+	+	29	0
+	+	10	9
+	+	10	15
+	+	28	0
+	+	10	0
+	+	28	0
+	+	8	8
+	+	14	0
+	+	13	0
+	+	9	4
+	+	10	0
+	+	28	11
+	+	27	12
+	+	28	22
+	+	3	165
+	+	16	13
+	+	3	0
+	+	3	117
+	+	26	11
+	+	26	12
+	+	17	0
+	+	19	0
+	+	17	17
+	+	26	39
+	+	17	0
+	+	18	0
+	+	3	146
+	+	3	4
+	+	22	16
+	+	3	172
+	+	19	31
+	+	27	31
+	+	29	31
+	+	24	0
+	+	3	0
+	+	24	4
+	+	32	0
+	+	25	4
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
 	+	31	0
-	+	32	39
-	+	4	91
 
-> ~/.gitconfig
-	*	1548236466	0
+> ~/Documents/dotfiles_laptop/dotfile.sh
+	*	1551033992	0
+	"	9	25
+
+> ~/Documents/laptop_files_2/dotfile2.sh
+	*	1551032684	0
+	"	3	88
+	^	19	1
+	.	3	88
+	+	10	0
+	+	10	17
+	+	3	0
+	+	10	30
+	+	4	20
+	+	3	101
+	+	4	41
+	+	16	6
+	+	4	10
+	+	16	23
+	+	19	3
+	+	18	31
+	+	10	0
+	+	6	22
+	+	20	0
+	+	6	0
+	+	20	0
+	+	6	0
+	+	8	26
+	+	13	5
+	+	11	8
+	+	12	0
+	+	10	7
+	+	12	7
+	+	12	0
+	+	12	15
+	+	9	17
+	+	11	6
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	8	18
+	+	3	88
+	l	16	15
+
+> ~/.config/gtk-2.0/gtkfilechooser.ini
+	*	1551031960	0
 	"	1	0
 
-> ~/.config/gtk-3.0/settings.ini
-	*	1548236288	0
-	"	1	0
-	^	4	47
-	.	4	46
-	+	4	46
-
-> ~/.config/chromium/Safe Browsing Cookies
-	*	1548236117	0
+> ~/.icons/default/index.theme
+	*	1551031434	0
 	"	1	0
 
-> ~/.config/chromium/Local State
-	*	1548236094	0
-	"	1	0
-
-> ~/.lesshst
-	*	1548235143	0
-	"	1	0
-
-> ~/.gtkrc-2.0
-	*	1548235108	0
-	"	19	0
-	^	7	46
-	.	7	45
-	+	7	45
-
-> ~/.fehbg
-	*	1548235070	0
-	"	1	0
-	^	2	39
-	.	2	38
-	+	2	38
-
-> ~/.esd_auth
-	*	1548234946	0
-	"	1	0
+> ~/Documents/dotfiles_laptop/dotfile2.sh
+	*	1551031031	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	2	0
+	+	3	0
+	+	4	100
+	+	4	178
+	+	4	90
+	+	4	159
+	+	4	50
+	+	5	0
+	+	6	18
+	+	9	0
+	+	8	13
 
 > ~/.bash_aliases
-	*	1548156948	0
-	"	1	7
-	^	1	8
-	.	1	7
+	*	1550958556	0
+	"	3	30
+	^	3	31
+	.	3	30
 	+	4	41
 	+	8	11
 	+	4	0
 	+	5	6
 	+	7	7
 	+	1	7
+	+	3	46
+	+	4	49
+	+	3	30
 
 > ~/.bashrc
-	*	1548156427	0
-	"	7	0
-	^	8	22
-	.	8	0
+	*	1550958535	0
+	"	4	0
+	.	4	0
 	+	9	21
 	+	7	0
 	+	9	61
@@ -587,1520 +726,744 @@ $
 	+	7	40
 	+	8	21
 	+	8	0
-
-> ~/tets/html/menu.js
-	*	1548155764	0
-	"	44	0
-
-> ~/latex/Makefile
-	*	1548153044	0
-	"	1	0
-
-> ~/projects/cpp/matrix.hh
-	*	1548152488	0
-	"	20	36
-	^	20	37
-	.	20	36
-	+	25	1
-	+	10	47
-	+	3	19
-	+	5	16
-	+	24	17
-	+	5	13
-	+	10	48
-	+	11	18
-	+	13	0
-	+	12	0
-	+	12	7
-	+	22	21
-	+	23	21
-	+	24	19
-	+	23	19
-	+	22	19
-	+	15	26
-	+	16	33
-	+	17	63
-	+	18	59
-	+	20	36
-
-> ~/projects/cpp/matrix.cc
-	*	1548152460	0
-	"	90	0
-	^	87	17
-	.	91	0
 	+	10	0
-	+	7	31
-	+	9	30
-	+	17	0
-	+	15	24
-	+	16	16
-	+	35	0
-	+	41	0
-	+	38	22
-	+	40	12
-	+	14	16
-	+	8	16
-	+	34	0
-	+	33	0
-	+	31	0
-	+	30	41
-	+	32	25
-	+	39	13
-	+	22	1
-	+	17	1
-	+	9	30
-	+	21	16
-	+	23	20
-	+	32	33
-	+	34	37
-	+	36	28
-	+	59	0
-	+	44	0
-	+	43	27
-	+	52	0
-	+	51	16
-	+	49	0
-	+	52	5
-	+	57	0
-	+	51	14
-	+	50	37
-	+	55	0
-	+	53	16
-	+	56	14
-	+	91	26
-	+	59	32
-	+	70	0
-	+	61	11
-	+	57	1
-	+	61	27
-	+	68	0
-	+	66	7
-	+	72	62
-	+	75	0
-	+	74	27
-	+	66	19
-	+	62	33
-	+	65	0
-	+	67	8
-	+	66	11
-	+	62	33
-	+	64	36
-	+	66	41
-	+	69	12
-	+	91	0
-	+	91	19
-	+	91	25
-	+	91	0
-	+	91	19
-	+	91	16
-	+	91	19
-	+	91	22
-	+	50	37
-	+	91	14
-	+	91	13
-	+	80	0
-	+	79	28
-	+	85	0
-	+	84	16
-	+	90	0
-	+	89	16
-	+	79	16
-	+	77	11
-	+	82	16
-	+	87	16
-	+	91	0
-	k	57	0
-	m	57	0
+	+	4	0
 
-> ~/projects/cpp/matrix.
-	*	1548147786	0
+> ~/.bash_profile
+	*	1550958527	0
+	"	4	0
+	.	4	0
+	+	6	37
+	+	7	0
+	+	6	44
+	+	7	0
+	+	6	0
+	+	4	0
+
+> ~/ideas
+	*	1550958227	0
 	"	1	0
+	^	1	44
+	.	1	43
+	+	1	43
 
-> ~/projects/cpp/test.cc
-	*	1548146169	0
+> ~/TCP_IP
+	*	1550958215	0
 	"	1	0
 	^	1	0
+	.	1	0
+	+	1	0
 
-> ~/matrix.cc
-	*	1548141998	0
+> ~/spyder/build/index.php
+	*	1550957484	0
+	"	1	4
+	^	1	5
+	.	1	5
+	+	1	5
+
+> ~/spyder/src/events/listener.cc
+	*	1550673437	0
+	"	11	70
+	^	11	71
+	.	11	71
+	+	10	0
+	+	11	0
+	+	11	74
+	+	11	71
+
+> ~/spyder/src/misc/socket.hh
+	*	1550673400	0
+	"	47	14
+
+> ~/spyder/src/socket/default-socket.cc
+	*	1550673348	0
 	"	1	0
 
-> ~/.config/i3/config
-	*	1548067751	0
-	"	163	0
-	^	167	0
-	.	166	0
-	+	166	0
-	+	166	30
-	+	166	0
-	+	175	0
-	+	166	0
-	+	173	24
-	+	174	0
-	+	166	0
-	+	166	31
-	+	166	0
-	+	171	0
-	+	166	0
+> ~/spyder/src/socket/socket.hh
+	*	1550673332	0
+	"	64	0
 
-> ~/.config/i3/i3blocks.conf
-	*	1548064437	0
-	"	41	6
-	^	41	9
-	.	150	0
-	+	166	9
-	+	148	0
-	+	149	0
-	+	150	0
+> ~/spyder/src/main.cc
+	*	1550673040	0
+	"	58	0
+
+> ~/spyder/src/misc/addrinfo/addrinfo.hh
+	*	1550672940	0
+	"	169	0
+
+> ~/spyder/src/misc/addrinfo/addrinfohh
+	*	1550672914	0
+	"	1	0
+
+> ~/spyder/src/misc/fd.hh
+	*	1550672887	0
+	"	41	16
+
+> ~/spyder/src/events/event-recv.cc
+	*	1550672548	0
+	"	10	39
+	^	10	37
+	.	10	39
+	+	10	36
+	+	1	0
+	+	10	39
+
+> ~/spyder/src/events/event-recv.hh
+	*	1550672492	0
+	"	17	0
+
+> ~/spyder/src/socket/default-socket.hh
+	*	1550672452	0
+	"	29	41
+
+> ~/spyder/src/events/register.hxx
+	*	1550671376	0
+	"	15	24
+
+> ~/spyder/src/events/register.hh
+	*	1550671296	0
+	"	51	17
+
+> ~/.gitconfig
+	*	1550670848	0
+	"	7	1
+	.	8	0
+	+	8	0
 
 > ~/.xinitrc
-	*	1548064135	0
+	*	1550670241	0
+	"	1	0
+
+> ~/spyder/tests/first_test.cc
+	*	1550577231	0
+	"	52	28
+	^	52	29
+	.	52	28
+	+	68	25
+	+	3	0
+	+	68	1
+	+	69	1
+	+	70	12
+	+	10	1
+	+	64	2
+	+	10	0
+	+	64	0
+	+	13	0
+	+	64	1
+	+	68	4
+	+	69	4
+	+	70	0
+	+	69	3
+	+	68	3
+	+	69	3
+	+	68	0
+	+	8	0
+	+	18	44
+	+	7	0
+	+	19	42
+	+	18	45
+	+	7	10
+	+	24	50
+	+	20	35
+	+	24	36
+	+	69	1
+	+	7	10
+	+	52	28
+
+> ~/spyder/tests/config.cc
+	*	1550577094	0
+	"	1	9
+	^	1	10
+	.	1	10
+	+	1	10
+
+> ~/spyder/tests/config.hh
+	*	1550577082	0
+	"	17	0
+	^	20	19
+	.	22	10
+	+	20	18
+	+	22	10
+
+> ~/spyder/tests/Makefile
+	*	1550577064	0
+	"	18	13
+	^	18	14
+	.	18	14
+	+	1	62
+	+	10	112
+	+	9	13
+	+	12	8
+	+	13	17
+	+	8	0
+	+	6	20
+	+	7	20
+	+	9	19
+	+	4	10
+	+	9	3
+	+	3	0
+	+	10	0
+	+	1	0
+	+	9	6
+	+	10	41
+	+	5	11
+	+	10	60
+	+	5	24
+	+	13	41
+	+	12	12
+	+	13	23
+	+	18	14
+
+> ~/spyder/Makefile.am
+	*	1550575261	0
+	"	88	0
+	.	38	0
+	+	69	0
+	+	38	0
+
+> ~/spyder/src/events/event-loop.cc
+	*	1550573096	0
+	"	1	0
+
+> ~/spyder/configure.ac
+	*	1550572836	0
+	"	42	0
+
+> ~/spyder/spyder/src/socket/socket.hh
+	*	1550405459	0
+	"	1	0
+
+> ~/spyder/spyder/src/socket/socket.cc
+	*	1550405453	0
+	"	1	0
+
+> ~/spyder/spyder/src/socket/default-socket.hh
+	*	1550405449	0
 	"	2	0
-	.	2	0
-	+	2	0
 
-> /var/log/pacman.log
-	*	1548063609	0
-	"	60	0
-
-> ~/.config/i3/.config
-	*	1548061998	0
+> ~/spyder/spyder/src/socket/default-socket.cc
+	*	1550405390	0
 	"	1	0
 
 > ~/.Xresources
-	*	1548057745	0
-	"	55	4
-	^	22	19
-	.	23	0
-	+	1	45
-	+	1	0
-	+	4	0
-	+	6	0
-	+	8	0
-	+	9	0
-	+	11	0
-	+	13	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	26	2
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	34	0
-	+	42	0
-	+	77	0
-	+	80	0
-	+	85	0
-	+	88	0
-	+	91	0
-	+	92	0
-	+	94	0
-	+	9	8
-	+	6	92
-	+	1	40
-	+	6	69
-	+	4	0
-	+	1	40
-	+	9	0
-	+	2	1
-	+	2	0
-	+	6	0
-	+	12	0
-	+	13	0
-	+	19	18
-	+	9	0
-	+	6	0
-	+	4	0
-	+	25	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	19	19
-	+	13	0
-	+	78	21
-	+	81	27
-	+	86	0
-	+	83	30
-	+	86	0
-	+	25	0
-	+	17	0
-	+	18	0
-	+	14	0
-	+	19	0
-	+	15	0
-	+	25	0
-	+	17	0
-	+	18	0
-	+	16	0
-	+	19	21
-	+	20	26
-	+	25	0
-	+	15	18
-	+	16	15
-	+	17	15
-	+	18	15
-	+	15	15
-	+	14	15
-	+	42	0
-	+	41	41
-	+	27	56
-	+	28	65
-	+	29	69
-	+	30	78
-	+	42	0
-	+	13	34
-	+	13	25
-	+	13	0
-	+	13	23
-	+	13	0
-	+	13	31
-	+	13	0
-	+	32	0
-	+	13	0
-	+	33	0
-	+	34	0
-	+	14	0
-	+	22	19
-	+	24	23
-	+	23	0
-
-> ~/projects/OCR2/neuron.c
-	*	1548024205	0
-	"	219	2
-	^	249	60
-	.	249	59
-	+	142	15
-	+	110	15
-	+	26	0
-	+	111	41
-	+	112	11
-	+	115	7
-	+	111	20
-	+	101	3
-	+	102	3
-	+	105	7
-	+	106	7
-	+	102	41
-	+	109	11
-	+	106	53
-	+	110	11
-	+	111	11
-	+	111	28
-	+	112	15
-	+	115	15
-	+	117	19
-	+	115	57
-	+	118	15
-	+	122	15
-	+	122	11
-	+	124	7
-	+	125	7
-	+	126	3
-	+	111	13
-	+	112	0
-	+	103	5
-	+	104	8
-	+	104	0
-	+	112	49
-	+	117	30
-	+	112	46
-	+	122	0
-	+	122	13
-	+	123	47
-	+	112	56
-	+	112	23
-	+	108	37
-	+	123	50
-	+	114	34
-	+	117	33
-	+	114	32
-	+	117	41
-	+	108	30
-	+	112	36
-	+	6	14
-	+	112	0
-	+	6	16
-	+	117	52
-	+	112	55
-	+	6	15
-	+	113	0
-	+	119	0
-	+	112	26
-	+	117	31
-	+	123	20
-	+	119	109
-	+	120	0
-	+	119	44
-	+	121	50
-	+	119	46
-	+	121	74
-	+	6	14
-	+	174	54
-	+	250	0
-	+	245	24
-	+	249	40
-	+	249	59
-	+	249	35
-	+	6	11
-	+	112	40
-	+	117	57
-	+	119	39
-	+	121	43
-	+	249	17
-	+	6	15
-	+	162	13
-	+	182	43
-	+	247	28
-	+	249	59
-
-> ~/projects/OCR2/Makefile
-	*	1548021328	0
-	"	6	31
-	^	6	32
-	.	6	31
-	+	3	4
-	+	6	31
-
-> ~/projects/OCR2/sig.py
-	*	1548021012	0
-	"	1	0
-	^	1	2
-	.	1	1
-	+	2	0
-	+	1	1
-
-> ~/projects/OCR2/main.c
-	*	1548003782	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/TODO
-	*	1547999304	0
-	"	1	0
-	^	1	17
-	.	1	0
-	+	1	16
-	+	1	0
-
-> ~/projects/personnal_encrypt/vgcore.3175
-	*	1547999290	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/decrypt.c
-	*	1547999155	0
-	"	76	13
-	^	76	14
-	.	76	14
-	+	106	62
-	+	175	0
-	+	107	0
-	+	109	0
-	+	7	18
-	+	171	44
-	+	173	15
-	+	171	30
-	+	169	30
-	+	160	31
-	+	164	19
-	+	106	1
-	+	7	0
-	+	4	0
-	+	5	19
-	+	6	0
-	+	24	21
-	+	106	0
-	+	101	36
-	+	101	40
-	+	101	33
-	+	101	78
-	+	101	33
-	+	101	94
-	+	104	0
-	+	83	0
-	+	83	13
-	+	97	16
-	+	103	0
-	+	103	37
-	+	103	29
-	+	103	57
-	+	103	33
-	+	103	58
-	+	30	28
-	+	56	0
-	+	54	0
-	+	45	23
-	+	53	22
-	+	55	14
-	+	103	0
-	+	103	56
-	+	103	30
-	+	103	34
-	+	103	47
-	+	103	0
-	+	103	19
-	+	103	44
-	+	103	45
-	+	103	21
-	+	103	9
-	+	103	13
-	+	103	24
-	+	103	9
-	+	103	14
-	+	81	53
-	+	83	0
-	+	97	33
-	+	80	32
-	+	81	41
-	+	103	33
-	+	103	17
-	+	103	18
-	+	103	9
-	+	103	5
-	+	103	17
-	+	80	9
-	+	103	16
-	+	103	17
-	+	103	45
-	+	103	0
-	+	57	43
-	+	103	0
-	+	104	0
-	+	77	0
-	+	60	0
-	+	77	0
-	+	103	31
-	+	102	0
-	+	80	32
-	+	81	44
-	+	69	21
-	+	59	16
-	+	75	42
-	+	76	31
-	+	76	67
-	+	81	47
-	+	75	27
-	+	75	41
-	+	75	18
-	+	69	27
-	+	59	12
-	+	66	21
-	+	77	0
-	+	76	14
-
-> ~/projects/personnal_encrypt/encrypt.c
-	*	1547998420	0
-	"	33	16
-	^	48	41
-	.	50	0
-	+	71	39
-	+	71	33
-	+	71	15
-	+	71	31
-	+	71	0
-	+	120	45
-	+	121	31
-	+	119	20
-	+	120	37
-	+	122	53
-	+	121	0
-	+	125	4
-	+	124	21
-	+	125	7
-	+	123	0
-	+	122	53
-	+	71	10
-	+	73	0
-	+	71	0
-	+	22	15
-	+	61	63
-	+	41	40
-	+	51	0
-	+	49	0
-	+	46	31
-	+	57	32
-	+	58	44
-	+	68	17
-	+	61	98
-	+	41	48
-	+	45	17
-	+	46	38
-	+	61	100
-	+	41	49
-	+	61	97
-	+	56	16
-	+	41	56
-	+	47	8
-	+	45	16
-	+	47	28
-	+	22	21
-	+	62	0
-	+	61	0
-	+	62	43
-	+	63	25
-	+	65	27
-	+	65	13
-	+	65	16
-	+	65	12
-	+	65	34
-	+	65	50
-	+	66	0
-	+	51	1
-	+	51	5
-	+	51	1
-	+	51	6
-	+	51	1
-	+	51	50
-	+	51	9
-	+	51	32
-	+	64	18
-	+	51	9
-	+	51	14
-	+	51	3
-	+	51	33
-	+	51	48
-	+	64	43
-	+	41	55
-	+	47	35
-	+	43	15
-	+	47	43
-	+	48	52
-	+	50	14
-	+	41	2
-	+	56	6
-	+	52	0
-	+	27	0
-	+	47	0
-	+	65	49
-	+	47	8
-	+	43	0
-	+	48	8
-	+	50	11
-	+	65	10
-	+	48	37
-	+	30	26
-	+	29	30
-	+	30	0
-	+	61	43
-	+	48	0
-	+	50	21
-	+	68	11
-	+	41	32
-	+	46	26
-	+	65	34
-	+	47	30
-	+	48	40
-	+	50	0
-
-> ~/projects/personnal_encrypt/Makefile
-	*	1547998328	0
-	"	3	27
-	^	3	28
-	.	3	27
-	+	18	43
-	+	9	20
-	+	15	21
-	+	18	44
-	+	20	7
-	+	21	28
-	+	5	13
-	+	11	26
-	+	13	26
-	+	18	36
-	+	21	35
-	+	2	22
-	+	5	22
-	+	2	73
-	+	2	62
-	+	3	27
-
-> ~/test.sh
-	*	1547996219	0
-	"	5	1
-	^	5	2
-	.	5	2
-	+	5	0
-	+	3	10
-	+	5	2
-
-> ~/others/renard.txt
-	*	1547921209	0
-	"	1	0
-
-> ~/work/configs/laptop/.lesshst
-	*	1547920521	0
-	"	1	0
-
-> ~/work/configs/laptop/.esd_auth
-	*	1547920506	0
-	"	1	0
-
-> ~/work/configs/laptop/.bashrc
-	*	1547920360	0
-	"	1	0
-
-> ~/work/configs/.bashrc
-	*	1547920323	0
-	"	67	0
-
-> ~/work/configs/.vimrc
-	*	1547920304	0
-	"	5	0
-	^	5	0
-	.	5	0
-	+	5	0
-
-> ~/.vimrc
-	*	1547920282	0
-	"	1	0
-	^	5	0
-	.	5	0
-	+	15	28
-	+	2	0
-	+	5	0
-
-> ~/.urxvt/ext/font-size
-	*	1547918758	0
-	"	379	0
-
-> ~/.Xauthority
-	*	1547918711	0
-	"	1	0
-
-> ~/.bash_logout
-	*	1547918041	0
-	"	1	0
-
-> ~/.bash_prompt
-	*	1547917789	0
-	"	34	25
-	^	45	26
-	.	45	25
-	+	54	10
-	+	9	18
-	+	24	19
-	+	38	0
-	+	49	53
-	+	49	46
-	+	49	4
-	+	49	30
-	+	51	0
-	+	49	30
-	+	51	1
-	+	49	26
-	+	49	33
-	+	49	31
-	+	49	21
-	+	49	39
-	+	49	25
-	+	49	0
-	+	49	28
-	+	49	34
-	+	49	40
-	+	49	13
-	+	49	27
-	+	49	25
-	+	49	28
-	+	49	37
-	+	49	28
-	+	49	19
-	+	49	0
-	+	49	23
-	+	49	27
-	+	49	5
-	+	49	25
-	+	49	14
-	+	49	6
-	+	49	20
-	+	49	6
-	+	49	7
-	+	49	35
-	+	49	7
-	+	49	8
-	+	51	0
-	+	51	31
-	+	49	38
-	+	51	0
-	+	49	22
-	+	51	28
-	+	51	27
-	+	51	30
-	+	51	0
-	+	51	1
-	+	51	19
-	+	51	20
-	+	49	23
-	+	51	0
-	+	39	21
-	+	47	0
-	+	47	23
-	+	51	0
-	+	51	35
-	+	43	0
-	+	43	28
-	+	44	8
-	+	47	5
-	+	45	25
-	+	51	0
-	+	47	0
-	+	46	5
-	+	50	21
-	+	45	26
-	+	50	22
-	+	53	41
-	+	52	21
-	+	51	0
-	+	45	25
-
-> ~/test
-	*	1547915691	0
-	"	1	0
-	^	1	0
-	.	1	79
-	+	1	80
-	+	1	79
-
-> /usr/bin/zstdgrep
-	*	1547912277	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/out.decoded
-	*	1547858107	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/utils.c
-	*	1547814372	0
-	"	99	8
-	.	99	0
-	+	51	0
-	+	37	39
-	+	50	0
-	+	48	0
-	+	47	7
-	+	46	0
-	+	45	17
-	+	49	20
-	+	51	51
-	+	51	33
-	+	51	57
-	+	51	26
-	+	51	5
-	+	51	38
-	+	67	39
-	+	70	17
-	+	51	10
-	+	51	4
-	+	51	37
-	+	51	23
-	+	44	25
-	+	42	12
-	+	44	0
-	+	39	0
-	+	51	36
-	+	51	0
-	+	52	16
-	+	51	16
-	+	61	33
-	+	57	0
-	+	52	58
-	+	53	40
-	+	57	64
-	+	54	0
-	+	55	39
-	+	56	0
-	+	57	12
-	+	58	6
-	+	59	13
-	+	61	13
-	+	62	13
-	+	61	33
-	+	52	0
-	+	61	0
-	+	44	12
-	+	60	25
-	+	14	0
-	+	17	0
-	+	15	55
-	+	27	54
-	+	36	1
-	+	63	2
-	+	36	0
-	+	63	1
-	+	57	69
-	+	70	5
-	+	89	0
-	+	77	37
-	+	76	19
-	+	83	21
-	+	83	16
-	+	83	37
-	+	83	22
-	+	88	17
-	+	77	56
-	+	86	29
-	+	79	19
-	+	83	36
-	+	87	21
-	+	83	21
-	+	83	0
-	+	81	5
-	+	82	14
-	+	86	0
-	+	82	17
-	+	85	0
-	+	83	20
-	+	83	23
-	+	84	15
-	+	108	1
-	+	73	6
-	+	91	22
-	+	99	8
-	+	94	11
-	+	104	18
-	+	105	14
-	+	99	9
-	+	102	25
-	+	98	29
-	+	97	12
-	+	98	7
-	+	94	0
-	+	98	22
-	+	97	11
-	+	98	13
-	+	98	12
-	+	98	17
-	+	102	17
-	+	102	0
-	+	99	0
-
-> ~/projects/personnal_encrypt/utils.h
-	*	1547812489	0
-	"	13	22
-	^	13	23
-	.	13	22
-	+	14	5
-	+	11	11
-	+	6	19
-	+	14	0
-	+	12	0
-	+	13	40
-	+	7	18
-	+	13	22
-
-> ~/projects/personnal_encrypt/test.decoded
-	*	1547812212	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/vector.c
-	*	1547809842	0
-	"	41	4
-	^	49	31
-	.	49	30
-	+	18	0
-	+	8	17
-	+	8	60
-	+	17	17
-	+	27	0
-	+	22	3
-	+	43	0
-	+	41	4
-	+	35	7
-	+	42	12
-	+	35	39
-	+	34	5
-	+	35	57
-	+	37	17
-	+	32	18
-	+	29	14
-	+	42	16
-	+	37	16
-	+	38	21
-	+	38	20
-	+	37	12
-	+	39	30
-	+	40	20
-	+	35	51
-	+	40	26
-	+	61	0
-	+	60	53
-	+	22	42
-	+	20	14
-	+	22	48
-	+	24	20
-	+	23	41
-	+	24	31
-	+	26	17
-	+	44	39
-	+	44	0
-	+	44	16
-	+	3	44
-	+	8	0
-	+	54	0
-	+	24	24
-	+	35	42
-	+	36	11
-	+	45	53
-	+	50	0
-	+	49	18
-	+	46	14
-	+	46	0
-	+	47	15
-	+	24	29
-	+	24	39
-	+	25	0
-	+	47	30
-	+	48	19
-	+	49	30
-
-> ~/projects/personnal_encrypt/test.c
-	*	1547809715	0
-	"	4	0
-	^	1	18
-	.	1	17
-	+	1	0
-	+	19	0
-	+	1	18
-	+	29	0
-	+	23	7
-	+	1	17
-	+	23	37
-	+	29	0
-	+	28	0
-	+	25	0
-	+	27	0
-	+	25	28
-	+	27	29
-	+	28	12
-	+	23	26
-	+	22	27
-	+	23	30
-	+	22	29
-	+	22	28
-	+	22	40
-	+	25	5
-	+	27	5
-	+	22	17
-	+	22	0
-	+	24	22
-	+	26	24
-	+	27	30
-	+	25	30
-	+	5	1
-	+	20	0
-	+	19	12
-	+	3	0
-	+	1	18
-	+	11	0
-	+	10	7
-	+	6	38
-	+	10	23
-	+	9	20
-	+	10	27
-	+	17	0
-	+	16	20
-	+	18	20
-	+	1	17
-
-> ~/projects/personnal_encrypt/vector.h
-	*	1547809547	0
-	"	20	53
-	^	20	54
-	.	20	53
-	+	18	32
-	+	6	33
-	+	8	13
-	+	10	7
-	+	11	7
-	+	12	5
-	+	13	1
-	+	12	11
-	+	11	11
-	+	10	17
-	+	11	20
-	+	15	30
-	+	12	12
-	+	16	43
-	+	16	51
-	+	17	51
-	+	18	29
-	+	17	42
-	+	4	19
-	+	22	5
-	+	6	8
-	+	17	14
-	+	19	34
-	+	16	14
-	+	15	44
-	+	9	0
-	+	10	3
-	+	11	3
-	+	12	3
-	+	9	10
-	+	10	11
-	+	11	11
-	+	12	11
-	+	9	23
-	+	16	0
-	+	10	3
-	+	11	3
-	+	12	3
-	+	10	11
-	+	11	11
-	+	12	11
-	+	20	53
-
-> ~/projects/my-bittorrent/src/main.c
-	*	1547798702	0
-	"	62	21
-	^	16	0
-	.	15	0
-	+	63	18
-	+	48	49
-	+	50	0
-	+	49	0
-	+	50	0
-	+	49	51
-	+	53	59
-	+	71	17
-	+	62	23
-	+	68	0
-	+	71	0
-	+	70	28
-	+	71	0
-	+	68	15
-	+	69	15
-	+	70	15
-	+	70	19
-	+	71	15
-	+	14	1
-	+	15	0
-	+	18	0
-	+	19	0
-	+	56	20
-	+	53	8
-	+	55	0
-	+	56	0
-	+	54	46
-	+	70	0
-	+	71	0
-	+	70	0
-	+	68	12
-	+	69	12
-	+	70	12
-	+	57	0
-	+	15	0
-	+	16	0
-	+	15	0
-
-> ~/out.t
-	*	1547584587	0
-	"	20100	0
-
-> ~/test.c
-	*	1547584542	0
-	"	1	0
-	^	5	16
-	.	5	15
-	+	12	0
-	+	11	0
-	+	9	33
-	+	11	29
-	+	11	14
-	+	11	41
-	+	11	19
-	+	11	23
-	+	9	29
-	+	11	28
-	+	11	64
-	+	12	0
-	+	11	0
-	+	9	42
-	+	10	13
-	+	10	12
-	+	9	41
-	+	12	0
-	+	12	28
-	+	9	24
-	+	8	13
-	+	1	0
-	+	1	18
-	+	12	11
-	+	10	12
-	+	9	29
-	+	12	13
-	+	12	0
-	+	1	0
-	+	12	0
-	+	6	0
-	+	9	13
-	+	7	7
-	+	8	22
-	+	10	0
-	+	9	12
-	+	2	0
-	+	1	17
-	+	5	15
-
-> ~/test.py
-	*	1547578005	0
-	"	3	7
-	^	3	8
-	.	3	7
-	+	3	3
-	+	2	3
-	+	3	7
-
-> ~/Downloads/Compiler Explorer C Editor #1 Code.c
-	*	1547245944	0
-	"	1	0
-
-> ~/Downloads/renard.txt
-	*	1547245419	0
-	"	37	0
-
-> ~/test4.html
-	*	1547153415	0
-	"	406	37
-	^	406	38
-	.	406	37
-	+	406	37
-
-> ~/test3.html
-	*	1547153388	0
-	"	209	597
-	^	209	598
-	.	209	597
-	+	209	597
-
-> ~/test2.html
-	*	1547153352	0
-	"	726	0
-	^	727	7
-	.	727	6
-	+	727	6
-
-> ~/test.html
-	*	1547152955	0
-	"	432	6
-	^	432	7
-	.	432	6
-	+	432	6
-
-> ~/projects/personnal_encrypt/tests/test.encoded
-	*	1547151424	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/tests/test.in
-	*	1547151275	0
-	"	5	0
-	^	5	0
-	.	4	3
-	+	4	3
-
-> ~/projects/personnal_encrypt/test.in
-	*	1547150012	0
-	"	3	11
-	^	3	12
-	.	3	11
-	+	3	10
-	+	3	2
-	+	3	11
-
-> ~/projects/personnal_encrypt/utils.
-	*	1547148035	0
-	"	1	0
-
-> ~/projects/personnal_encrypt/test.
-	*	1547147052	0
-	"	1	0
-
-> ~/revisions/SG - Sciences de bases, Mathématiques/PROB - Probabilités et statistiques/cheat.89y.txt
-	*	1546956123	0
-	"	38	0
-
-> ~/revisions/SG - Sciences de bases, Mathématiques/PROB - Probabilités et statistiques/cheat.89y
-	*	1546956110	0
-	"	1	0
-
-> ~/revisions/SG - Sciences de bases, Mathématiques/MASI - Mathématiques du signal/Maths_Signal/cours1.md
-	*	1546947239	0
-	"	181	0
-
-> ~/hello.S
-	*	1546897993	0
-	"	1	0
-	^	18	21
-	.	1	0
-	+	18	20
-	+	1	0
-
-> ~/projects/tp-florian.revol/libstring/Makefile
-	*	1546897659	0
-	"	2	51
-	^	2	52
-	.	2	51
-	+	4	0
-	+	7	0
-	+	12	0
-	+	12	25
-	+	5	14
-	+	9	13
-	+	12	25
-	+	12	10
-	+	12	0
-	+	13	0
-	+	2	51
-
-> ~/projects/tp-florian.revol/test_libstring.c
-	*	1546897547	0
-	"	10	9
-	^	10	10
-	.	10	9
-	+	15	36
-	+	11	47
-	+	18	12
-	+	12	0
-	+	17	37
-	+	9	26
-	+	10	13
-	+	11	48
-	+	10	29
-	+	11	50
-	+	10	9
-
-> ~/projects/tp-florian.revol/Makefile
-	*	1546897442	0
-	"	2	51
-	^	2	52
-	.	2	51
-	+	6	20
-	+	6	18
-	+	11	27
-	+	6	17
-	+	11	20
-	+	16	0
-	+	8	0
-	+	11	5
-	+	13	29
-	+	9	22
-	+	6	17
-	+	9	39
-	+	6	0
-	+	8	12
-	+	3	0
-	+	6	0
-	+	9	25
-	+	13	0
-	+	11	26
-	+	6	17
-	+	9	27
-	+	6	0
-	+	9	1
-	+	16	6
-	+	17	7
-	+	9	25
-	+	5	12
-	+	8	19
-	+	9	21
-	+	17	29
-	+	9	16
-	+	17	32
-	+	14	21
-	+	20	0
-	+	4	10
-	+	8	6
-	+	17	40
-	+	8	16
-	+	9	33
-	+	6	45
-	+	11	14
-	+	6	15
-	+	12	19
-	+	6	0
-	+	9	34
-	+	5	20
-	+	4	20
-	+	6	24
-	+	9	52
-	+	2	51
-
-> ~/projects/tp-florian.revol/libstring/my_strlen.S
-	*	1546884377	0
-	"	1	0
-	^	6	20
-	.	6	19
-	+	9	23
-	+	6	19
-
-> ~/revisions/SRT - Systèmes, Réseaux et Transmissions/SEXP - Système d'exploitation/exam/correction.md
-	*	1546875119	0
-	"	212	23
-	^	212	24
-	.	212	23
-	+	212	23
-
-> ~/test.s
-	*	1546791895	0
-	"	5	1
-	.	7	0
-	+	9	0
-	+	8	0
-	+	7	0
-
-> ~/projects/tp-florian.revol/lists/list_insert_head.S
-	*	1546786310	0
-	"	1	0
-	^	17	0
-	.	5	0
-	+	3	26
-	+	2	22
-	+	3	21
-	+	16	7
-	+	5	0
-
-> ~/projects/tp-florian.revol/lists/Makefile
-	*	1546786184	0
-	"	16	37
-	^	16	38
-	.	16	37
-	+	6	13
-	+	5	25
-	+	4	8
-	+	11	0
-	+	7	12
-	+	11	19
-	+	16	37
-
-> ~/projects/tp-florian.revol/lists/main
-	*	1546786137	0
-	"	1	0
-
-> ~/projects/tp-florian.revol/lists/test.S
-	*	1546786080	0
-	"	4	0
-	^	4	0
+	*	1550288470	0
+	"	3	0
+	^	2	1
 	.	3	0
-	+	1	3
-	+	2	11
-	+	1	11
-	+	5	8
-	+	6	8
-	+	7	8
-	+	8	8
-	+	9	8
-	+	10	8
-	+	11	8
-	+	12	8
-	+	13	8
-	+	14	8
-	+	15	3
-	+	14	3
-	+	13	3
-	+	12	3
-	+	11	3
-	+	10	3
-	+	9	3
-	+	8	3
-	+	7	3
-	+	6	3
-	+	5	3
+	+	3	0
 	+	2	0
-	+	1	0
 	+	3	0
 
-> ~/projects/tp-florian.revol/lists/main.c
-	*	1546786003	0
-	"	9	22
-	^	9	23
-	.	9	23
-	+	12	0
-	+	8	0
-	+	1	17
-	+	8	11
-	+	8	24
-	+	6	33
-	+	7	13
-	+	10	18
-	+	8	20
-	+	10	19
-	+	9	26
-	+	10	23
-	+	9	23
-
-> ~/projects/tp-florian.revol/lists/list.h
-	*	1546785888	0
-	"	39	1
-
-> ~/projects/tp-florian.revol/lists/test.s
-	*	1546785801	0
-	"	14	3
-	^	14	4
-	.	14	4
-	+	4	0
+> ~/spyder/spyder/src/main.cc
+	*	1550232056	0
+	"	1	0
+	.	5	0
 	+	2	0
-	+	2	8
-	+	3	3
-	+	2	3
-	+	3	11
-	+	1	8
-	+	1	5
-	+	1	0
-	+	1	3
-	+	4	0
-	+	1	0
-	+	2	0
+	+	17	52
+	+	6	0
+	+	5	1
+	+	27	5
 	+	5	0
-	+	14	0
-	+	14	4
-	+	15	0
-	+	14	4
 
-> ~/projects/tp-florian.revol/lists/test.c
-	*	1546785656	0
+> ~/spyder/spyder/src/vhost/vhost.cc
+	*	1550232008	0
+	"	9	23
+	^	9	24
+	.	10	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	6	22
+	+	8	0
+	+	9	8
+	+	7	22
+	+	9	24
+	+	9	0
+	+	9	24
+	+	10	0
+
+> ~/spyder/spyder/src/vhost/vhost-factory.hh
+	*	1550231977	0
+	"	22	0
+
+> ~/spyder/spyder/src/vhost/vhost-factory.cc
+	*	1550231927	0
+	"	5	43
+	^	5	44
+	.	5	43
+	+	10	0
+	+	9	0
+	+	8	20
+	+	6	42
+	+	8	0
+	+	5	31
+	+	6	16
+	+	5	43
+
+> ~/spyder/spyder/src/vhost/vhost.hh
+	*	1550231918	0
+	"	59	44
+	^	59	45
+	.	59	44
+	+	60	0
+	+	59	44
+
+> ~/spyder/spyder/src/vhost/vhost-static-file.hh
+	*	1550230666	0
+	"	29	0
+
+> ~/spyder/spyder/src/vhost/dispatcher.hh
+	*	1550229606	0
+	"	25	0
+
+> ~/spyder/spyder/src/vhost/connection.hh
+	*	1550229587	0
+	"	33	0
+
+> ~/.config/i3/config
+	*	1550157900	0
+	"	174	0
+
+> ~/spyder/spyder/src/config/config.hh
+	*	1550153921	0
+	"	71	18
+
+> ~/spyder/spyder/src/config/config.
+	*	1550153859	0
+	"	1	0
+
+> ~/spyder/spyder/src/request/request.hh
+	*	1550148867	0
+	"	26	0
+
+> ~/toknow
+	*	1550142420	0
+	"	3	4
+	.	1	0
+	+	2	5
+	+	3	4
+	+	4	2
+	+	1	0
+	+	2	0
+	+	4	0
+	+	2	0
+	+	4	0
+	+	2	0
+	+	1	0
+
+> ~/spyder/spyder/tests/test.py
+	*	1550105535	0
+	"	3	20
+	^	3	21
+	.	3	20
+	+	3	20
+
+> ~/needed
+	*	1550104299	0
+	"	2	4
+	^	2	5
+	.	2	5
+	+	1	15
+	+	2	5
+
+> ~/brightness.sh
+	*	1550091197	0
+	"	1	0
+	^	2	7
+	.	2	6
+	+	10	19
+	+	13	19
+	+	1	0
+	+	3	0
+	+	2	6
+
+> ~/Downloads/json.hpp
+	*	1550068107	0
+	"	20345	0
+
+> ~/pytest/unit_test.py
+	*	1550068090	0
+	"	30	40
+	^	30	41
+	.	30	40
+	+	1	13
+	+	1	36
+	+	31	14
+	+	1	0
+	+	1	42
+	+	1	70
+	+	31	0
+	+	30	40
+
+> ~/spyder/test/configure.ac
+	*	1550068075	0
+	"	23	14
+	^	23	15
+	.	23	14
+	+	17	0
+	+	24	0
+	+	23	14
+
+> ~/spyder/spyder/src/config/test.cc
+	*	1550068058	0
+	"	6	12
+	^	6	13
+	.	6	12
+	+	1	0
+	+	2	0
+	+	4	0
+	+	3	0
+	+	5	0
+	+	7	0
+	+	6	12
+
+> ~/mafi
+	*	1550066970	0
+	"	10	10
+	^	10	11
+	.	10	10
+	+	1	5
+	+	4	0
+	+	1	49
+	+	3	41
+	+	5	17
+	+	11	0
+	+	9	63
+	+	8	91
+	+	9	50
+	+	10	10
+
+> ~/lum.sh
+	*	1550052415	0
+	"	14	29
+	^	14	30
+	.	14	29
+	+	4	112
+	+	3	13
+	+	2	53
+	+	9	8
+	+	4	53
+	+	5	0
+	+	7	17
+	+	8	19
+	+	12	22
+	+	9	8
+	+	13	0
+	+	14	29
+
+> /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-LVDS-1/intel_backlight/max_brightness
+	*	1550051600	0
+	"	1	0
+
+> ~/l
+	*	1550051573	0
+	"	1	0
+
+> ~/dic_y.txt
+	*	1550048273	0
+	"	1	0
+
+> ~/dic.txt
+	*	1550047881	0
+	"	24	3
+	^	2	7
+	.	2	6
+	+	1001	0
+	+	3	0
+	+	2	6
+
+> ~/WordNet-3.0/dict/data.verb
+	*	1550047408	0
+	"	1	2
+
+> ~/WordNet-3.0/README
+	*	1550047373	0
+	"	90	0
+
+> ~/spyder/spyder/src/config/config.cc
+	*	1550044010	0
+	"	124	24
+	^	29	41
+	.	29	40
+	+	29	40
+
+> ~/spyder/spyder/tests/configuration_file/test.sh
+	*	1550043364	0
+	"	6	14
+	^	6	15
+	.	6	14
+	+	3	30
+	+	9	3
+	+	9	0
+	+	6	18
+	+	7	10
+	+	5	10
+	+	8	7
+	+	6	14
+
+> ~/spyder/spyder/tests/configuration_file/test
+	*	1550043217	0
+	"	1	0
+
+> ~/spyder/spyder/autom4te.cache/output.0
+	*	1550016517	0
+	"	1	0
+
+> ~/spyder/spyder/.gitignore
+	*	1550016419	0
+	"	5	8
+	^	5	9
+	.	5	8
+	+	2	6
+	+	4	3
+	+	3	6
+	+	5	8
+
+> ~/spyder/spyder/autogen.sh
+	*	1550015013	0
+	"	1	0
+
+> ~/low
+	*	1550006073	0
+	"	1	0
+
+> ~/spyder/spyder/lib/main.cpp
+	*	1549974396	0
+	"	33	3
+	^	33	4
+	.	33	3
+	+	36	0
+	+	6	28
+	+	5	0
+	+	7	0
+	+	35	12
+	+	4	18
+	+	12	0
+	+	8	29
+	+	31	0
+	+	4	2
+	+	3	17
+	+	14	9
+	+	13	27
+	+	28	14
+	+	2	16
+	+	31	0
+	+	31	27
+	+	30	0
+	+	28	0
+	+	28	6
+	+	17	3
+	+	16	0
+	+	17	19
+	+	28	28
+	+	31	0
+	+	32	0
+	+	31	27
+	+	32	47
+	+	27	1
+	+	28	0
+	+	21	0
+	+	19	7
+	+	21	7
+	+	22	5
+	+	27	3
+	+	23	28
+	+	27	0
+	+	26	16
+	+	18	0
+	+	32	0
+	+	34	0
+	+	33	3
+
+> ~/spyder/spyder/lib/congig_file.json
+	*	1549974233	0
 	"	10	0
 	^	10	1
-	.	9	12
-	+	13	0
-	+	12	17
-	+	10	0
-	+	9	14
-	+	3	0
-	+	1	18
-	+	4	42
-	+	4	55
-	+	8	19
-	+	9	12
+	.	2	0
+	+	7	10
+	+	10	1
+	+	2	0
 
-> ~/projects/tp-florian.revol/lists/new_list.S
-	*	1546785493	0
-	"	8	0
+> ~/spyder/spyder/Makefile.am
+	*	1549971560	0
+	"	1	0
+	^	1	10
+	.	1	9
+	+	1	8
+	+	2	0
+	+	1	9
+
+> ~/spyder/spyder/lib/json.hpp
+	*	1549969031	0
+	"	350	0
+
+> ~/spyder/spyder/Makefile.
+	*	1549935457	0
+	"	1	0
+
+> ~/spyder/spyder/m4/libtool.m4
+	*	1549935135	0
+	"	59	0
+
+> ~/spyder/spyder/configure.ac
+	*	1549934847	0
+	"	19	0
+	.	19	0
+	+	18	11
+	+	16	2
+	+	18	0
+	+	18	13
+	+	18	78
+	+	18	0
+	+	17	0
+	+	19	0
+	+	17	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	19	0
+
+> ~/spyder/spyder/build-aux/depcomp
+	*	1549931092	0
+	"	48	0
+
+> ~/test/configure.ac
+	*	1549930434	0
+	"	36	0
+	.	36	0
+	+	33	0
+	+	36	0
+
+> ~/spyder/spyder/config
+	*	1549928527	0
+	"	1	0
+
+> ~/spyder/spyder/configure
+	*	1549927914	0
+	"	1	0
+
+> ~/spyder/spyder/auto
+	*	1549927893	0
+	"	1	0
+
+> ~/droit_général
+	*	1549925896	0
+	"	1	0
+	^	5	0
 	.	5	0
-	+	3	26
-	+	2	14
-	+	3	13
-	+	7	22
 	+	5	0
 
-> ~/projects/tp-florian.revol/lists/list
-	*	1546736356	0
+> ~/test
+	*	1549904446	0
+	"	1	35
+	^	1	37
+	.	1	36
+	+	1	80
+	+	1	0
+	+	2	0
+	+	5	30
+	+	3	14
+	+	1	0
+	+	11	0
+	+	1	36
+	l	1	14
+
+> ~/web/test.html
+	*	1549900461	0
+	"	7	1
+	^	12	0
+	.	12	0
+	+	13	6
+	+	11	0
+	+	8	0
+	+	12	0
+
+> ~/test.cpp
+	*	1549888760	0
+	"	12	12
+	^	12	13
+	.	13	0
+	+	20	0
+	+	3	0
+	+	4	0
+	+	1	19
+	+	19	12
+	+	15	18
+	+	5	0
+	+	14	13
+	+	13	0
+	+	12	13
+	+	5	15
+	+	12	13
+	+	13	0
+
+> ~/TODO
+	*	1549882625	0
+	"	1	10
+	^	1	35
+	.	1	34
+	+	1	34
+
+> ~/bison
+	*	1549748511	0
 	"	1	0
+	^	1	20
+	.	1	19
+	+	1	19
 
-> ~/projects/tp-florian.revol/libstring/my_strchr.S
-	*	1546734274	0
-	"	8	23
-	^	8	24
-	.	8	23
-	+	8	23
+> ~/logo/florian.revol-logo/logomatig/src/logo.tih
+	*	1549416290	0
+	"	6	6
+	^	3	25
+	.	3	24
+	+	6	6
+	+	3	24
 
-> ~/projects/tp-florian.revol/libstring/my_strcpy.S
-	*	1546733863	0
-	"	18	0
-	^	18	0
-	.	14	15
-	+	14	15
+> ~/.vim/tiger.vim
+	*	1549375443	0
+	"	118	10
+	^	118	11
+	.	118	10
+	+	2	46
+	+	118	10
 
-> ~/projects/tp-florian.revol/libstring/my_str
-	*	1546733780	0
-	"	1	0
+> ~/.ssh/id_rsa.pub
+	*	1549374965	0
+	"	1	26
+
+> ~/logo/test.tig
+	*	1549374798	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/logo/logo-1.1.0-rtc
+	*	1549374773	0
+	"	19	0
+
+> ~/logo/florian.revol-logo/logomatig/src/logo-test.tig
+	*	1549374606	0
+	"	13	0
+	^	13	0
+	.	13	0
+	+	13	2
+	+	12	0
+	+	2	3
+	+	3	3
+	+	4	3
+	+	6	3
+	+	7	3
+	+	8	7
+	+	9	3
+	+	10	7
+	+	11	7
+	+	13	0
+
+> ~/logo/florian.revol-logo/logomatig/src/libLogo.tih
+	*	1549374529	0
+	"	48	0
+
+> ~/logo/florian.revol-logo/logomatig/src/line.tih
+	*	1549374508	0
+	"	35	25

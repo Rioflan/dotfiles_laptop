@@ -1,35 +1,32 @@
 #!/bin/sh
 
-directory="$HOME/"
-ignored=". bash_history cache esd_auth fehbg lesshst local mozilla pki python ssh thumbnails thunderbird"
+paths="bash_aliases bash_profile bashrc gitconfig vimrc xinitrc bash_logout bash_prompt viminfo Xauthority Xresources urxvt/ vim/ config/i3/ config/gtk-2.0/ config/gtk-3.0/"
 
-for file in $(echo "$HOME/.*")
-do
-    var=$(echo $file | sed -E "s/${directory//\//\\/}\.(.*)/\1/")
-    if [ -z "$var" ]; then
-        continue 2
-    fi
-    is_ok="1"
-    for i in $ignored
-    do
-        if [[ "$var" =~ "$i" ]]; then
-            is_ok="0"
-            break
-        fi
+function remove()
+{
+    rm "$1" -r
+    [[ $1 =~ (.*)\/.+$ ]]
+    tmp_dir="${BASH_REMATCH[1]}"
+    while [ -z "$(ls $tmp_dir)" ]; do
+        rmdir $tmp_dir
+        [[ $tmp_dir =~ (.*)\/.+$ ]]
+        tmp_dir="${BASH_REMATCH[1]}"
     done
-    if [ "$is_ok" = "1" ]
-    then
-        link="1"
-        for arg in "$@"
-        do
-            if [ "$arg" = '-p' ]; then
-                echo "$var"
-            elif [ "$arg" = '-n' ]; then
-                link="0"
-            fi
-        done
-        if [ "$link" = "1" ]; then
-            cp -r "$HOME/.$var" "./$var"
+}
+
+for path in $paths
+do
+    if [[ $path =~ (.*)\/.+$ ]]; then
+        tmp_path="${BASH_REMATCH[1]}"
+        if ! [ -e "$tmp_path" ]; then
+            mkdir $tmp_path -p
         fi
+    fi
+    if [ "$#" -eq 0 ]; then
+        cp "$HOME/.$path" "$path" -r
+    elif [ "$1" = "clean" ]; then
+        remove $path
+    elif [ "$1" = "print" ]; then
+        echo "$path"
     fi
 done
